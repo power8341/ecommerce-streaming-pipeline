@@ -11,6 +11,9 @@ PySpark Structured Streaming
 Delta Lake (/tmp/delta/ecommerce_orders)
 ↓
 SQL Analytics & Aggregations
+## Pipeline in Action
+![Pipeline Running](docs/pipeline_running.png)
+*Left: Kafka producer sending live orders | Right: PySpark consumer writing to Delta Lake*
 ## Tech Stack
 | Tool | Purpose |
 |------|---------|
